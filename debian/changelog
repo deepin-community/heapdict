@@ -1,0 +1,20 @@
+heapdict (1.0.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/tests: Use AUTOPKGTEST_TMP instead of ADTTMP
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Diane Trout]
+  * New upstream release
+  * Remove fix-setup.patch resolved upstream
+
+ -- Ondřej Nový <onovy@debian.org>  Tue, 13 Feb 2018 10:15:44 +0100
+
+heapdict (1.0.0-1) unstable; urgency=low
+
+  * Initial Packaging (Closes: #847503)
+
+ -- Diane Trout <diane@ghic.org>  Mon, 05 Dec 2016 15:55:56 -0800

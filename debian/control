@@ -1,0 +1,25 @@
+Source: heapdict
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Uploaders: Diane Trout <diane@ghic.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper-compat (= 9),
+               dh-python,
+               python3-all,
+               python3-pytest,
+               python3-setuptools
+Standards-Version: 3.9.8
+Homepage: http://stutzbachenterprises.com/
+Vcs-Git: https://salsa.debian.org/python-team/modules/heapdict.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/heapdict
+Testsuite: autopkgtest-pkg-python
+
+Package: python3-heapdict
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: heap with decrease-key and increase-key operations for Python 3
+ heapdict implements the MutableMapping ABC, meaning it works pretty
+ much like a regular Python dict.  It's designed to be used as a
+ priority queue.
+ .
+ This contains the Python 3 version
